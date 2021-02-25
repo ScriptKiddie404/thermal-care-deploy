@@ -40,11 +40,11 @@ input[type="email"] {
     opacity: 0.5;
 }
 
-input:focus {
+.contact-section input:focus {
     outline: none;
 }
 
-.card {
+.contact-section .card {
     width: 80%;
     display: flex;
     justify-content: center;
@@ -55,11 +55,11 @@ input:focus {
 
 
 @media (max-width: 500px) {
-    .form-control {
+    .contact-section .form-control {
         width: 100%;
     }
 
-    input {
+    .contact-section input {
         width: 100%;
     }
 
